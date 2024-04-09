@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+input{
+  outline: none;
+  border: none;
+}
+
+body{
+  background-color: gainsboro;
+  width: 600px;
+  height: 100vh;
+  margin: 0px auto;
+}
+header h1{
+  text-align: center;
+  margin: 30px 0;
+  font-size: 3rem;
+}
+
+form .input-header{
+  margin-bottom: 15px;
+}
+
+
+.input-header input{
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 13px;
+  box-shadow: 0 0 2px 2px rgba(30, 30, 30, 0.5);
+  font-size: 1.7rem;
+}
+
+.add{
+  display: block;
+  background-color: navy;
+  padding: 15px 25px;
+  border-radius: 13px;
+  font-size: 1.7rem;
+  font-weight: 700; 
+  width: 70%;
+  margin: 15px auto;
+  color: white;
+  transition: 0.3s;
+  background-image: linear-gradient(to bottom, purple,red); 
+}
+.add:hover{
+  background-image:linear-gradient(to left, rgb(226, 123, 50), rgb(222, 212, 16) );
+}
+
+
+main{
+  margin-top: 30px;
+  background-color: rgb(83, 66, 41);
+  border-radius: 30px;
+}
+main h2{
+  margin-top: 30px;
+  font-size: 2.4rem;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+.all-subject-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 20px;
+  color: white;
+}
+.all-subject-header h3{
+  font-size: 20px;
+}
+
+.all-subjects{
+  padding: 10px 5px;
+  background-color: rgb(241, 232, 156);
+  margin: 15px 20px;
+  border-radius: 30px;
+}
+.subject{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  align-items: center;
+}
+
+.subject-data{
+  font-size: 1.5rem;
+}
+.subject input{
+  border: 1px solid black;
+  padding: 7.5px;
+  font-size: 1.5rem;
+}
+
+.submit-button button{
+  display: block;
+  width: 75%;
+  margin: 15px auto;
+  padding: 15px 0;
+  font-size: 1.7rem;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.result {
+  margin: 30px auto;
+  width: 75%;  
+  font-size: 3.0rem;
+  text-align: center;
+  font-weight: 600;
+}
